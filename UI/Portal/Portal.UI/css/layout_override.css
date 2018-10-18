@@ -1,0 +1,15 @@
+﻿#footer .container {
+    padding-top: 20px;
+}
+
+#footer {
+    padding-bottom: 0 !important;
+}
+
+.section {
+    padding-top: 10px !important;
+}
+
+    .section .section-title {
+        margin-bottom: 10px !important;
+    }

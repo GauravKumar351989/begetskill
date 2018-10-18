@@ -1,0 +1,18 @@
+﻿<div class="aside-widget" ng-init="GetRecentPost()">
+    <div class="section-title">
+        <h2 ng-bind="postType"></h2>
+    </div>
+    <div class="post post-widget" ng-repeat="post in postList">
+        <a class="post-img" href="blog-post.html"><img src="./img/widget-1.jpg" alt=""></a>
+        <div class="post-body">
+            <h3 class="post-title">
+                <a href="blog-post.html">
+                    {{post.Name}}
+                </a>
+            </h3>
+            <span>
+                {{post.Discription}}
+            </span>
+        </div>
+    </div>
+</div>

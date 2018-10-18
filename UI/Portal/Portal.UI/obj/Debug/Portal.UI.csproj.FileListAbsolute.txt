@@ -1,0 +1,7 @@
+D:\WorkSpace\BegetSkill\BegetSkill\UI\Portal\Portal.UI\bin\TypeScriptHTMLApp1.dll.config
+D:\WorkSpace\BegetSkill\BegetSkill\UI\Portal\Portal.UI\bin\TypeScriptHTMLApp1.dll
+D:\WorkSpace\BegetSkill\BegetSkill\UI\Portal\Portal.UI\bin\TypeScriptHTMLApp1.pdb
+D:\WorkSpace\BegetSkill\BegetSkill\UI\Portal\Portal.UI\obj\Debug\Portal.UI.csprojResolveAssemblyReference.cache
+D:\WorkSpace\BegetSkill\BegetSkill\UI\Portal\Portal.UI\obj\Debug\Portal.UI.csproj.CoreCompileInputs.cache
+D:\WorkSpace\BegetSkill\BegetSkill\UI\Portal\Portal.UI\obj\Debug\TypeScriptHTMLApp1.dll
+D:\WorkSpace\BegetSkill\BegetSkill\UI\Portal\Portal.UI\obj\Debug\TypeScriptHTMLApp1.pdb

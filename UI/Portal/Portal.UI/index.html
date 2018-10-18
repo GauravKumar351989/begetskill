@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+<html lang="en" ng-app="BegetSkill">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>BegetSkill</title>
+    <link href="css/plugin/font.css" rel="stylesheet" />
+    <link type="text/css" rel="stylesheet" href="css/plugin/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/plugin/font-awesome.min.css">
+    <link type="text/css" rel="stylesheet" href="css/plugin/style.css" />
+    <link href="css/layout_override.css" rel="stylesheet" />
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="js/plugin/html5shiv.min.js"></script>
+      <script src="js/plugin/respond.min.js"></script>
+    <![endif]-->
+    <script src="js/plugin/angular.js"></script>
+    <script src="js/plugin/angular-ui-router.js"></script>
+    <script src="js/plugin/jquery.min.js"></script>
+    <script src="js/plugin/bootstrap.min.js"></script>
+    <script src="js/plugin/main.js"></script>
+    <script src="app/app.js"></script>
+    <script src="app/config.js"></script>
+    <!--Services-->
+
+    <script src="app/services/FacilityService.js"></script>
+    <script src="app/services/PostService.js"></script>
+
+    <!--Controller-->
+    <script src="app/controllers/HeaderController.js"></script>
+    <script src="app/controllers/ServiceController.js"></script>
+    <script src="app/controllers/PostController.js"></script>
+
+    <script src="app/directive/AsidePostDirective.js"></script>
+    <script src="app/directive/PostDirective.js"></script>
+</head>
+<body>
+    <header id="header" ng-include="'../views/header.html'"></header>
+    <div class="section">
+        <div class="container">
+            <ui-view>
+                <div ng-include="'../views/postlist.html'"></div>
+            </ui-view>
+        </div>
+    </div>
+    <footer id="footer" ng-include="'../views/footer.html'"></footer>
+</body>
+</html>
